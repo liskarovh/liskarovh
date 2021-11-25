@@ -1,1 +1,10 @@
+seznam = []
 
+a = input("Zadej nějaký text: ")
+konec = input("Zadej konec věty: ")
+seznam.append(a)
+seznam.append(konec)
+print(seznam)
+for i in a:
+    print(i, end = "")
+    
